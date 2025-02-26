@@ -162,8 +162,8 @@ a:hover {
 }
 
 .lead {
+  color:#000;
   font-size: 1.5rem;
-  font-weight: var(--font-weight-thin);
 }
 
 b,
@@ -1140,6 +1140,8 @@ button:focus:not(:focus-visible) {
   }
 
   .header-image {
+    border: #000;
+    border-radius: 20px;
     position: relative;
     top: auto;
     bottom: 0;
